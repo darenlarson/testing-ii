@@ -10,18 +10,12 @@ describe('<Dashboard />', () => {
 
         const strikeButton = getByText(/strike/i);
         const ballButton = getByText(/ball/i);
-        const singleButton = getByText(/single/i);
-        const doubleButton = getByText(/double/i);
-        const tripleButton = getByText(/triple/i);
-        const homerunButton = getByText(/home run/i);
+        const hitButton = getByText(/hit/i);
         const outButton = getByText(/out/i);
 
         expect(strikeButton).toHaveTextContent(/strike/i);
         expect(ballButton).toHaveTextContent(/ball/i);
-        expect(singleButton).toHaveTextContent(/single/i);
-        expect(doubleButton).toHaveTextContent(/double/i);
-        expect(tripleButton).toHaveTextContent(/triple/i);
-        expect(homerunButton).toHaveTextContent(/home run/i);
+        expect(hitButton).toHaveTextContent(/hit/i);
         expect(outButton).toHaveTextContent(/out/i);
     });
 });

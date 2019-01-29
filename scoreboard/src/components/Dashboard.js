@@ -7,10 +7,7 @@ const Dashboard = props => {
             <div>
                 <button onClick={props.addStrike}>STRIKE</button>
                 <button onClick={props.addBall}>BALL</button>
-                <button>SINGLE</button>
-                <button>DOUBLE</button>
-                <button>TRIPLE</button>
-                <button>HOME RUN</button>
+                <button>HIT</button>
                 <button>OUT</button>
             </div>
         </div>

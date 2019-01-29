@@ -9,6 +9,13 @@ class App extends Component {
   state = {
     strikes: 0,
     balls: 0,
+    outs: 0,
+    inning: 1,
+    topInning: true,
+    totalScoreHome: 0,
+    totalScoreAway: 0,
+    currentInningScoreHome: 0,
+    currentInningScoreAway: 0,
   };
 
   addStrike = event => {
