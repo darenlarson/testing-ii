@@ -6,11 +6,11 @@ const Display = props => {
         <div>
             <div>
                 <h3>Strikes:</h3>
-                <div>{props.strikes}</div>
+                <div data-testid="strike-count">{props.strikes}</div>
             </div>
             <div>
                 <h3>Balls:</h3>
-                <div>{props.balls}</div>
+                <div data-testid="ball-count">{props.balls}</div>
             </div>
         </div>
     );
